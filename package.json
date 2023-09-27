@@ -1,0 +1,21 @@
+{
+  "name": "manga-cli",
+  "module": "index.ts",
+  "scripts": {
+    "start": "bun index.ts",
+    "dev": "bun --watch index.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "axios": "^1.5.0",
+    "inquirer": "^9.2.11",
+    "pdf-lib": "^1.17.1"
+  }
+}
