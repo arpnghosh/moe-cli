@@ -1,8 +1,8 @@
 ## moe-cli 
-read manga from the terminal with mangadex api and zathura pdf reader
+read manga from terminal  using mangadex api and zathura
 
 ### Dependencies:
- [zathura](https://github.com/pwmt/zathura)
+- [zathura](https://github.com/pwmt/zathura)
 
 ### Installation
 clone and install dependencies
@@ -12,7 +12,7 @@ cd moe-cli
 bun install
 ```
 
-setup environment variable
+setup environment variables
 ```bash
 USER=name_of_current_loggedin_user
 ```
@@ -20,5 +20,5 @@ start the development server
 ```bash 
 bun dev
 ```
-### References:
- [managadex api](https://api.mangadex.org/docs/)
+### Credits:
+- [mangadex api](https://api.mangadex.org/docs/)
